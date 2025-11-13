@@ -514,3 +514,62 @@ border: 2px solid #4C6879;
     border: 1px solid #FFCC00;
     cursor: pointer;
 }
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #4C6879;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+  /* --- SECCIÓN BIENVENIDA --- */
+  .bienvenida {
+    margin: 100px 20px 0 20px; /* márgenes laterales iguales */
+    align-items: center;        /* centramos todo */
+    text-align: center;
+  }
+
+  .bienvenida h1 {
+    font-size: 32px; /* más pequeño */
+    line-height: 1.2;
+  }
+
+  .bienvenida-texto-apoyo {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  #botones-app {
+    justify-content: center;
+  }
+
+  #Google-play img{
+    height: 50%;
+    
+  }
+  #botones-app img {
+    height: 50px;
+  }
+
+  .rating {
+    justify-content: center;
+  }
+
+  /* --- CELULAR DE MUESTRA --- */
+  .celular-app {
+    position: static;    /* elimina el posicionamiento absoluto */
+    transform: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .celular-app img {
+    height: 300px;
+    max-width: 90%;
+  }
+}
